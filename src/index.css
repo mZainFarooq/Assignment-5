@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card:hover .overlay {
+  background-color: rgba(0, 0, 0, 0.5); /* Black with 50% opacity */
+}
+
+body {
+  background: #858e96;
+
+  background: linear-gradient(90deg, #858e96 0%, #60696b 100%);
+
+  background: -moz-linear-gradient(90deg, #858e96 0%, #60696b 100%);
+
+  background: -webkit-linear-gradient(90deg, #858e96 0%, #60696b 100%);
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#492957", endColorstr="#744A6D", GradientType=1 );
+}
